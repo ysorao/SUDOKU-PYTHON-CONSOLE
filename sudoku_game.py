@@ -22,3 +22,13 @@ class SudokuGame:
     def is_complete(self):
         # Verifica si el tablero está completo
         pass
+
+    
+    def check_solution(self):
+        # Compara tablero con la solución
+        pass
+
+    def make_move(self, row, col, value):
+        # Realiza un movimiento en el tablero
+        pass
+
