@@ -7,4 +7,8 @@ class SudokuDisplay:
     def convert_to_display(self, num):
         # Convierte número a su representación visual
         pass
+    
+    def convert_from_display(self, value):
+        # Convierte visualización a número
+        pass
 
