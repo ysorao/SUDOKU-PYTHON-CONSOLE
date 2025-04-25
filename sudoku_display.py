@@ -9,4 +9,10 @@ class SudokuDisplay:
     def convert_from_display(self, value):
         # Convierte visualización a número
         pass
-    
+    def get_display_options(self):
+        # Opciones de visualización disponibles
+        return {
+            '1': 'numerico',
+            '2': 'letras',
+            '3': 'simbolos'
+    }
