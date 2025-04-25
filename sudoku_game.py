@@ -5,7 +5,9 @@ class SudokuGame:
         self.solution = []
     def is_valid(self, row, col, num):
         # Verifica si un número es válido en la celda
-        pass
+        if num in self.board[row]:
+            return False
+        
 
     def solve(self):
         # Algoritmo de backtracking para resolver el tablero
