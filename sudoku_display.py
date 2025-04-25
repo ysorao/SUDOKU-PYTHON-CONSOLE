@@ -19,3 +19,7 @@ class SudokuDisplay:
             '2': 'letras',
             '3': 'simbolos'
         }
+    
+    def print_display_menu(self):
+        # Menú visual para seleccionar tipo de display
+        pass
