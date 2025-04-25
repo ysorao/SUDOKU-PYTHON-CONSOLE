@@ -8,3 +8,7 @@ class SudokuDifficulty:
             '1': 'facil',
             '2': 'dificil'
         }
+    
+    def print_difficulty_menu(self):
+        # Muestra el menú de dificultad
+        pass
