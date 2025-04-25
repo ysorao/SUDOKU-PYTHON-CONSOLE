@@ -16,3 +16,7 @@ class SudokuDifficulty:
     def get_border(self):
         # Devuelve el tipo de borde del tablero
         pass
+    
+    def get_cells_to_remove(self):
+        # Devuelve cantidad de casillas vacías según dificultad
+        Pass
