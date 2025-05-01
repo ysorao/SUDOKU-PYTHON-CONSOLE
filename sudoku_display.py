@@ -1,4 +1,4 @@
-# MODULO PARA LA VISUALIZACION DEL JUEGO
+# MODULO TERMINADO DE LA VISUALIZACION DEL JUEGO
 class SudokuDisplay:
     def __init__(self, display_type='numerico'):
         self.display_type = display_type
